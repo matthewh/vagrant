@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
   s.add_dependency "log4r", "~> 1.1.9"
   s.add_dependency "net-ssh", "~> 2.2.2"
   s.add_dependency "net-scp", "~> 1.0.4"
+  s.add_dependency "rbvmomi", "~> 1.5.1"
 
   s.add_development_dependency "rake"
   s.add_development_dependency "contest", ">= 0.1.2"

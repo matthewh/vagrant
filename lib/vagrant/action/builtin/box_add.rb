@@ -47,7 +47,7 @@ module Vagrant
         def download_klass(url)
           # This is hardcoded for now. In the future I'd like to make this
           # pluginnable as well.
-          classes = [Downloaders::HTTP, Downloaders::File]
+          classes = [Downloaders::HTTP, Downloaders::File, Downloaders::VirtualMachineInfrastructure]
 
           # Find the class to use.
           classes.each_index do |i|
